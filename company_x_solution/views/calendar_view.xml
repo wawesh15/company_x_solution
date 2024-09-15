@@ -5,8 +5,7 @@
         <field name="name">Calendar View</field>
         <field name="model">product.product</field>
         <field name="arch" type="xml">
-            <calendar string="Product Deliveries">
-                <!-- Define calendar view fields -->
+           <calendar string="Product Deliveries" date_start="delivery_date">
             </calendar>
         </field>
     </record>

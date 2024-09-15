@@ -8,7 +8,7 @@
             <template id="portal_template">
                 <t t-call="web.html_container">
                     <div>
-                        <!-- Display order summary for customers -->
+                        <!-- order customer summary-->
                     </div>
                 </t>
             </template>

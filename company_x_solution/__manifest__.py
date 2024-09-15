@@ -8,7 +8,7 @@
         This module includes features for managing B2B quotations, orders, payments, and deliveries.
     """,
     'author': 'Your Name',
-    'depends': ['base', 'sales', 'purchase', 'report'],
+    'depends': ['base', 'sale_management', 'purchase', 'report'],
     'data': [
         'data/security.xml',
         'views/dashboard_view.xml',

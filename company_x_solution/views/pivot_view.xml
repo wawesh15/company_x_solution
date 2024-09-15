@@ -6,7 +6,7 @@
         <field name="model">order.payment</field>
         <field name="arch" type="xml">
             <pivot string="Cash Collections">
-                <!-- Define pivot view columns and measures -->
+                <!-- Pivot view -->
             </pivot>
         </field>
     </record>
