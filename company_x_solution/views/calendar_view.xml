@@ -1,0 +1,13 @@
+<!-- company_x_solution/views/calendar_view.xml -->
+
+<odoo>
+    <record id="view_calendar_delivery" model="ir.ui.view">
+        <field name="name">Calendar View</field>
+        <field name="model">product.product</field>
+        <field name="arch" type="xml">
+            <calendar string="Product Deliveries">
+                <!-- Define calendar view fields -->
+            </calendar>
+        </field>
+    </record>
+</odoo>

@@ -1,0 +1,13 @@
+<!-- company_x_solution/views/pivot_view.xml -->
+
+<odoo>
+    <record id="view_pivot_collection" model="ir.ui.view">
+        <field name="name">Pivot View</field>
+        <field name="model">order.payment</field>
+        <field name="arch" type="xml">
+            <pivot string="Cash Collections">
+                <!-- Define pivot view columns and measures -->
+            </pivot>
+        </field>
+    </record>
+</odoo>

@@ -1,0 +1,17 @@
+<!-- company_x_solution/views/portal_view.xml -->
+
+<odoo>
+    <record id="view_portal_summary" model="ir.ui.view">
+        <field name="name">Portal View</field>
+        <field name="model">sale.order</field>
+        <field name="arch" type="xml">
+            <template id="portal_template">
+                <t t-call="web.html_container">
+                    <div>
+                        <!-- Display order summary for customers -->
+                    </div>
+                </t>
+            </template>
+        </field>
+    </record>
+</odoo>
